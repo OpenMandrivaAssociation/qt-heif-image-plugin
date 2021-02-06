@@ -9,10 +9,11 @@ URL: https://github.com/jakar/qt-heif-image-plugin
 License: LGPLv3
 Group: System/Libraries
 BuildRequires: cmake
-BuildRequires: qt5-macros
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5Gui)
 BuildRequires: pkgconfig(libheif) >= 1.1
+BuildRequires: qt5-macros
+BuildRequires: qmake5
 
 %description
 Qt plugin for working with HEIF image files
