@@ -23,10 +23,10 @@ Qt plugin for working with HEIF image files
 %cmake_qt5
 
 %build
-%make -C build
+%make_build -C build
 
 %install
-%makeinstall_std -C build
+%make_install -C build
 
 %files
 %{_libdir}/qt5/plugins/imageformats/libqheif.so
