@@ -2,7 +2,7 @@
 
 Name: qt-heif-image-plugin
 Version: 0.3.4
-Release: %{?date:0.%{date}.}1
+Release: %{?date:0.%{date}.}2
 Source0: https://github.com/jakar/qt-heif-image-plugin/archive/%{?date:master}%{!?date:%{version}}/%{name}-%{version}.tar.gz
 Summary: Qt plugin for working with HEIF image files
 URL: https://github.com/jakar/qt-heif-image-plugin
